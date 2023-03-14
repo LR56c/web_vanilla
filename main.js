@@ -1,4 +1,5 @@
 console.log( "main.js loaded" );
+import { tsParticles } from "tsparticles-engine";
 
 tsParticles
   .loadJSON("tsparticles", "public/particles.json")
