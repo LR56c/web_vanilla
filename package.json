@@ -1,5 +1,9 @@
 {
   "dependencies": {
-    "jquery": "^3.6.4"
+    "jquery": "^3.6.4",
+    "rippleui": "^1.9.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
   }
 }
