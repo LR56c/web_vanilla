@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "dev" : "tailwindcss -i ./style.css -o ./dist/output.css --watch"
+  },
   "dependencies": {
     "jquery": "^3.6.4",
     "rippleui": "^1.9.2"
