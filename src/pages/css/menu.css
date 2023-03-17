@@ -1,0 +1,31 @@
+input{
+    width: 80%;
+    height: 70%;
+    border:  2px solid black;   
+    margin: 5px;
+}
+
+.footer--suscribir{
+
+    height: 20%;
+    display: grid;
+    grid-template-rows: 90% ;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 2px solid grey;
+    
+
+}
+
+section{
+
+    border: 2px solid grey;
+    height: 100%;
+}
+
+nav{
+
+    border: 2px solid grey;
+    height: 10%;
+
+}
+
