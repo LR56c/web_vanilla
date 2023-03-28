@@ -1,0 +1,58 @@
+
+
+
+.caja-sub{
+   display: grid;
+   grid-template-rows: repeat(2,1fr); 
+   width: 50%; 
+   margin-left: 25%;
+   margin-top: 200px;
+
+}
+
+
+.sub{
+
+    display: inline-block;
+    
+    margin: auto;
+    height: 100%;
+    width: 50%;
+
+
+}
+
+.imagen-titulo-1{
+
+
+
+    height: 200px;
+    width: 200;
+    max-height: 50px;
+    max-width: 50px;
+
+    min-height: 10px;
+    min-width: 10px;
+
+}
+
+
+.Titulo-1{
+
+
+    color: grey;
+    font-size: 50px;
+    text-align: center;
+    margin: 15px;
+    font-weight: 300;
+
+}
+
+
+.caja-sub-2{
+
+
+    margin-top: 100px ;
+
+
+}

@@ -1,0 +1,219 @@
+
+.cuerpo{
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+    font-weight: 600;
+    margin: 10px;
+
+}
+
+
+/*  Puv start */
+
+.puv-sus{
+    
+    display: grid;
+
+    background-color: rgb(213, 201, 201);
+    
+    grid-template-columns: 6fr 1fr;
+
+    font-size: 15px;
+
+}
+
+.puv-sus a{
+
+    color: blue;
+
+}
+
+
+
+/* Puv end */
+/* start nav */
+
+.P-nav{
+
+    background-color:grey; 
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr;
+   
+}
+
+
+/* end nav */
+/* start section */
+
+
+
+.section-queofresemos{
+    height: auto;
+    text-align: center;
+}
+
+.click_bite{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 5px;
+    min-width: 400px;
+}
+
+
+.section-carrusel{
+
+    margin: 40px;
+
+}
+.section-queofresemos{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    align-items: center;
+    height: auto;
+
+}
+
+.section-queofresemos--h2{
+    color: grey;
+    font-size: 40px;    
+    margin: 0px; 
+    height: max-content;   
+}
+.section-queofresemos--p{
+
+  font-size: 20px;
+  color: grey;
+  border-bottom: 2px solid grey; 
+  border-radius: 5%; 
+  margin: 40px;
+  text-align: center;
+  
+}
+
+.galeria-de-fotos{
+
+    display: grid;
+    grid-template-rows: repeat(2,400px);
+    grid-template-columns: repeat(3,1fr);
+    border-left:3px solid gray;
+    border-right:3px solid gray;
+    border-radius: 10px;
+    
+    
+}
+
+.galeria-caja{
+
+    
+    margin: 10px;
+    padding: 2px;
+}
+
+.galeria-foto-item{
+
+
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    background: white;
+    border:3px solid gray;
+    border-radius: 5%;
+
+}
+
+.titulo-producto{
+
+    align-items: center;
+    margin: 10px;
+    
+}
+
+.titulo-pro{
+
+
+    
+    text-align: center;
+    color: grey;
+    font-size: 40px;
+    border-bottom: 2px solid grey;
+    border-radius: 5%;
+
+}
+
+/* end section */
+
+/* footer start */
+
+.p-footer-input{
+
+
+    margin: 10px;
+    border-bottom: 1px solid black;
+
+    min-height: 10px;
+    min-width: 10px;
+
+}
+.footer--suscribir{
+
+    background-image: url("https://th.bing.com/th/id/R.c9ea525887edc7fbeb61070e89eb17db?rik=f%2fhliik2yUlmiA&riu=http%3a%2f%2farticleimage.nicoblomaga.jp%2fimage%2f121%2f2014%2f0%2f9%2f097b546f304e1339c39318172e206a3bbc0c157f1397529989.png&ehk=O%2fjeq%2fwsYe2aE3isfBMcTmcHaB%2fEI%2f1yfu3mQ1HrGEs%3d&risl=&pid=ImgRaw&r=0");
+}
+
+
+
+.footer--informacion{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: grey;
+    
+    
+}
+
+.titulo-suscibirse{
+
+    color: grey;
+    border: 3px solid grey;
+    border-radius: 5%;
+    margin: 10px;
+    padding: 5px;
+    
+    text-align: center;
+}
+.redes-sociales{
+
+    font-size: 18px;
+    color: white;
+
+}
+.foote-redsocial-h2{
+
+    color: white;
+    font-size: 25px;
+
+}
+.footer-fono-h2{
+
+    color: white;
+    font-size: 25px;
+}
+.footer-fono-p{
+
+    color: white;
+    font-size: 18px;
+
+}
+/* footer end */
+
+
+/* https://flowbite.com/ */
+
+/* https://tailwindcomponents.com/cheatsheet/ */
+
+.radio{
+
+    border-radius: 20px;    
+}

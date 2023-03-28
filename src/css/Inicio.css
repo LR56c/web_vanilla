@@ -1,0 +1,98 @@
+/* body */
+
+body{
+
+    margin-top: 100px;
+    margin-left:30px ;
+    margin-right:30px ;
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+}
+
+/* nav */
+
+hr{
+
+    border: 1px solid grey;
+
+}
+
+.Nav-caja{
+
+    display: grid;
+    grid-template-columns: 1fr 0.1fr;
+
+}
+
+.boton-shop{
+
+    margin: 10px;
+
+}
+
+/* Section */
+
+.Caja-titulo-1{
+
+    margin-bottom: 200px ;
+
+
+    
+}
+
+.imagen-titulo-1{
+
+    height: 200px;
+    width: 200px;
+    
+}
+
+
+
+
+.section-queofresemos--p{
+
+    color: grey;
+    font-size: 20px;
+    text-align: center;    
+
+
+}
+
+.click_bite{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    align-items: center;
+   
+    margin: 30px;
+    
+
+}
+
+.imganes-shop{
+
+    display: flex;
+    margin: auto;
+
+}
+
+
+/* footer */
+
+footer{
+
+    margin-top: 100px;
+
+}
+
+.Footer-end{
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 10px;
+
+}
+
+
